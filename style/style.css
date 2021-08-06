@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/Background.png);
+}
+.header {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 100vw;
+}
+.header__container {
+    display: flex;
+}
+.header__logo {
+    background-color: rgb(242, 108, 79);
+    font-size: 24pt;
+    width: 20%;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.header__logo::after {
+    content: "+";
+    font-size: 21pt;
+    position: absolute;
+    top:-6px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    font-size: 10pt;
+    font-weight: bold;
+    background-image: url(../images/bgmenu.png);
+    width: 80%;
+}
+.header__menu-link {
+    text-decoration: none;
+    color:#fff;
+    margin: 0 15px 0 15px;
+}
+.header__img {
+}
+.social-profiles {
+}
+.social-profiles__item {
+}
+.social-profiles__ball {
+}
+.social-profiles__twitter {
+}
+.social-profiles__ads {
+}
+.social-profiles__facebook {
+}
+.sidebar {
+}
+.sidebar__items {
+}
+.sidebar__info {
+}
+.sidebar__title {
+}
+.sidebar-title {
+}
+.sidebar_description {
+}
+.sidebar__text {
+}
+.sidebar__feedback {
+}
+.sidebar__forms {
+}
+.sidebar__forms-email {
+}
+.sidebar__forms-submit {
+}
+.sidebar__form-description {
+}
+.sidebar__info-list {
+}
+.sidebar__list-items {
+}
+.sidebar__list-item {
+}
+.sidebar__item-date {
+}
+.sidebar__tags-list {
+}
+.tag {
+}
+.news {
+}
+.news__container {
+}
+.news__cover {
+}
+.news__image {
+}
+.news__facebook {
+}
+.social-btn {
+}
+.news__twitter {
+}
+.news__article {
+}
+.news__article-title {
+}
+.news__article-date {
+}
+.news__linkto {
+}
+.news__text {
+}
+.news-short {
+}
+.news-short__container {
+}
+.news-short__cover {
+}
+.news-short__image {
+}
+.news-short__article {
+}
+.news-short__article-title {
+}
+.news-short__article-date {
+}
+.news-short__linkto {
+}
+.news-short__text {
+}
+.footer {
+}
+.footer__wrapper {
+}
+.footer__descr {
+}
+.footer__social-btns {
+}
+.footer__facebook {
+}
+.footer__twitter {
+}
+.footer__ads {
+}
+.footer__copyright {
+}
+.footer__form {
+}
+.footer__input-email {
+}
+.footer__submit {
+}
