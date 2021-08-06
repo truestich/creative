@@ -78,47 +78,105 @@ body{
     left: 0;
     right: 0;
 }
-.social-profiles__twitter {
-}
-.social-profiles__ads {
-}
-.social-profiles__facebook {
-}
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d7d7d7;
+    width: 406px;
 }
 .sidebar__items {
+    padding: 40px;
+    background-color: #fefefe;
+
 }
 .sidebar__info {
 }
 .sidebar__title {
 }
 .sidebar-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
 }
 .sidebar_description {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    color: #aeaeae;
+    margin: 20px 0;
 }
 .sidebar__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #959595;
+    margin-bottom: 40px;
+    line-height: 24pt;
 }
 .sidebar__feedback {
+
 }
 .sidebar__forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
 }
 .sidebar__forms-email {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    border: none;
+    outline: none;
+    vertical-align: middle;
 }
 .sidebar__forms-submit {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
 }
 .sidebar__form-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    line-height: 18pt;
+    padding-top: 17px;
+    padding-bottom: 30px;
 }
 .sidebar__info-list {
+    margin-bottom: 50px;
 }
 .sidebar__list-items {
 }
 .sidebar__list-item {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    line-height: 20pt;
+    list-style-type: none; 
+}
+.sidebar__list-item::before{
+    content: '\1F782';
 }
 .sidebar__item-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    line-height: 20pt;
+    color: #7e7e7e;
 }
 .sidebar__tags-list {
+    margin-top: 20px;
 }
 .tag {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 0 20px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 2px;
 }
 .news {
 }
