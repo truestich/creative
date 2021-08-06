@@ -51,14 +51,32 @@ body{
 }
 
 .header__menu-link:hover {
-
     border-bottom: 2px solid #fff;
 }
 .social-profiles {
+    display: flex;
+    flex-direction: column;
 }
-.social-profiles__item {
+.social-profiles__contaner-item{
+    position: relative;
+    height: 42px;
+    width: 47px;
+    background-color: #f47b60;
+    border: 1px solid #d75f48;
+    transition: background-color 0.5s ease-in-out;
 }
-.social-profiles__ball {
+.social-profiles__contaner-item:hover{
+    background-color: #d75f48;
+    cursor: pointer;
+}
+.social-profiles__img {
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .social-profiles__twitter {
 }
