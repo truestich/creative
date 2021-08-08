@@ -7,6 +7,12 @@ body{
     background-image: url(../images/Background.png);
     overflow-x: hidden;
 }
+.container {
+    margin-top: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header {
     background-image: url(../images/bgheaderpng.png);
     font-family: 'Lato', sans-serif;
@@ -56,6 +62,8 @@ body{
 .social-profiles {
     display: flex;
     flex-direction: column;
+    float: left;
+    margin-top: 255px;
 }
 .social-profiles__contaner-item{
     position: relative;
@@ -83,6 +91,9 @@ body{
     flex-direction: column;
     border: 1px solid #d7d7d7;
     width: 406px;
+    float: right;
+}
+.sidebar__inner {
 }
 .sidebar__items {
     padding: 40px;
@@ -179,46 +190,100 @@ body{
     margin: 2px;
 }
 .news {
+    margin-bottom: 34px;
 }
 .news__container {
+    margin-right: 26px;
+    width: 770px;
 }
 .news__cover {
+    position: relative;
 }
 .news__image {
+    width: 770px;
 }
 .news__facebook {
+    margin-bottom: 55px;
 }
 .social-btn {
+    position: absolute;
+    bottom: 35px;
+    left: 46px;
 }
 .news__twitter {
 }
 .news__article {
+    padding: 40px 65px 50px 37px;
+    background-color: #fff;
 }
 .news__article-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30pt;
+    line-height: 34pt;
+    font-weight: bold;
 }
 .news__article-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    line-height: 34pt;
+    font-weight: 400;
+    color: #aeaeae;
 }
 .news__linkto {
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    line-height: 34pt;
+    font-weight: bold;
+    color: #f26c4f;
+    text-decoration: none;
 }
 .news__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    line-height: 24pt;
+    font-weight: 400;
+    color: #959595;
+}
+.news-short__wrapper{
+    width: 770px;
 }
 .news-short {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
 }
 .news-short__container {
+    width: 335px;
 }
 .news-short__cover {
 }
 .news-short__image {
+    width: 335px;
 }
 .news-short__article {
+    padding: 40px 47px 60px 40px;
+    background-color: #fff;
 }
 .news-short__article-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    line-height: 22pt;
+    font-weight: bold;
 }
 .news-short__article-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    line-height: 34pt;
+    color: #aeaeae;
 }
 .news-short__linkto {
 }
 .news-short__text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    line-height: 24pt;
+    color: #959595;
 }
 .footer {
 }
